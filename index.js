@@ -26,7 +26,7 @@ function iLoveTheBeatles(x) {
     array[increment] = string;
     increment++;
   }
-  while (increment < x);
+  while (x < 15);
 
   return array;
 }
