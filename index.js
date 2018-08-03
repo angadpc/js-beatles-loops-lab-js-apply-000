@@ -17,3 +17,16 @@ function johnLennonFacts(factsArray) {
   return factsArray;
 
 }
+
+function iLoveTheBeatles(x) {
+  var array = [];
+  var increment = 0;
+  var string = "I love the Beatles!";
+  do {
+    array[increment] = string;
+    increment++;
+  }
+  while (increment < x);
+
+  return array;
+}
